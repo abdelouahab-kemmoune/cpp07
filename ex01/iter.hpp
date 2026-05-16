@@ -1,17 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   iter.hpp                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: akemmoun <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/11 19:48:44 by akemmoun          #+#    #+#             */
-/*   Updated: 2025/08/11 19:48:46 by akemmoun         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#ifndef ITER_HPP
-#define ITER_HPP
+#pragma once
 
 #include <cstddef>
 #include <iostream>
@@ -42,5 +29,3 @@ void iter(const T* array, size_t size, Func f)
     for (size_t i = 0; i < size; ++i)
         f(array[i]);
 }
-
-#endif

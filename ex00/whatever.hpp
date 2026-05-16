@@ -1,17 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   whatever.hpp                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: akemmoun <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/08/11 19:48:44 by akemmoun          #+#    #+#             */
-/*   Updated: 2025/08/11 19:48:46 by akemmoun         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-# ifndef WHATEVER_HPP
-# define WHATEVER_HPP
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -38,5 +25,3 @@ T max(T x, T y) {
         return (x);
     return (y);
 }
-
-# endif
